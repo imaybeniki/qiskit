@@ -4,6 +4,24 @@ This repository is an open workspace for learning Qiskit and for collaboration o
 
 ## Installation
 
+Create a local environment with Anaconda.
+
+```bash
+conda create -n qiskit-env python=3
+```
+
+Activate your environment using 
+
+```bash
+conda activate qiskit-env
+```
+
+or on Windows simply
+
+```bash
+activate qiskit-env
+```
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install qiskit, numpy, and matplotlib.
 
 ```bash
