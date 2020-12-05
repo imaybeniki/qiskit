@@ -1,0 +1,10 @@
+__pycache__/
+.cache/
+
+# editor files
+.vscode/
+.idea/
+
+# Spyder project settings
+.spyderproject
+.spyproject
