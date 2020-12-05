@@ -10,7 +10,7 @@ qr = qp.create_quantum_register('qr',2)
 cr = qp.create_classical_register('cr',2)
 
 # Create a Quantum Circuit called "qc" involving qr and cr.
-qc = qp.create_circuit('HelloFratBoi', [qr],[cr])
+qc = qp.create_circuit('HelloFratBoiCircuit', [qr],[cr])
 
 backend = 'ibmqx5'
 
